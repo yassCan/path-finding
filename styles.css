@@ -1,0 +1,44 @@
+.board {
+    width: 1000px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+.path {
+    background-color: yellow;
+    border-color: color;
+    border: 3px solid white;
+    transition: background-color 500ms;
+}
+.searchCell {
+    background: cyan;
+    transition: background 600ms;
+}
+.validCell {
+    background: rgb(212, 130, 212);
+    transform: background 600ms;
+}
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.079);
+}
+
+.obstacle {
+    background: black;
+    border-color: black;
+}
+
+.cell {
+    /* background-color: gray; */
+    border: 1px solid black;
+    /* background: white; */
+}
+
+.START {
+    background-color: lime;
+}
+
+.END {
+    background-color: red;    
+}
